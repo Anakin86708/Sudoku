@@ -1,0 +1,4 @@
+sudoku/
+__pycache__/
+.tags*
+sudoku.py
