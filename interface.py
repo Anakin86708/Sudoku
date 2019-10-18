@@ -51,7 +51,7 @@ while True:
         print("Qual tabuleiro deseja utilizar (escolha entre 1 e 3): ")
         chose_tabuleiro = int(input())
         if chose_tabuleiro == 1:
-            tabuleiro = game.novo_tabuleiro("tabuleiro.csv")
+            tabuleiro = game.novo_tabuleiro("tabuleiro")
             game._print_tabuleiro(tabuleiro)
         elif chose_tabuleiro == 2:
             tabuleiro = game.novo_tabuleiro("tabuleiro2")
